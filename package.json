@@ -1,0 +1,27 @@
+{
+  "name": "bmf-to-json",
+  "version": "1.0.0",
+  "description": "Parser the BM&FBovespa history data to Json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipi87/bmf-to-json.git"
+  },
+  "keywords": [
+    "BMF",
+    "JSON",
+    "PARSER"
+  ],
+  "author": "Filipi da Silva Fuchter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipi87/bmf-to-json/issues"
+  },
+  "homepage": "https://github.com/filipi87/bmf-to-json#readme",
+  "dependencies": {
+    "linebyline": "^1.3.0"
+  }
+}
