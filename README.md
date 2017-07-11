@@ -4,8 +4,8 @@ Parser the BM&amp;FBovespa history data to Json.
 ```javascript
     const file = 'example/COTAHIST_M052017_2.TXT';
     const BMF = require('../index');
-    this.bmfParser = new BMF(file);
-    this.bmfParser.loadData()
+    let bmfParser = new BMF(file);
+    bmfParser.loadData()
     .then((data) => {
         console.log(data);
     })
