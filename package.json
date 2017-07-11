@@ -1,6 +1,6 @@
 {
   "name": "bmf-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parser the BM&FBovespa history data to Json.",
   "main": "index.js",
   "scripts": {
